@@ -1,4 +1,22 @@
-# Getting Started with Create React App
+# ReactJS Frontend App
+
+This is the UI where login and register will gives access to Json Viewer.
+
+## Run the App on the Local Machine
+
+ Install the required dependencies
+```
+    yarn install
+```
+
+Start the application.
+```
+    yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +85,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
