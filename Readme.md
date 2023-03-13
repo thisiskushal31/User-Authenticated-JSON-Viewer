@@ -38,11 +38,14 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ### Docker
 
-To be updated 
+This project will need docker installed on machine you are running on even if it is server hosted on cloud for installation guide follow the step given in this [docker official documentation](https://docs.docker.com/get-docker/).
 
 ## See JsonViewer in action
 
-To be updated
+To run this project on a local machine see below the given instructions.
+
+- For the frontend see this [Readme.md](./ReactFrontend/Readme.md)
+- For the backend see this [Readme.md](./ContainerisedBackend/Readme.md)
 
 ## License
 
