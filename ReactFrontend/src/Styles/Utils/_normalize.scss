@@ -7,43 +7,12 @@
     text-decoration: none;
 }
 
-:root{
-    //background
-    --Background: #1B1C31;
-    --Secondary-Background: #24243E;
-
-    //color primary
-    --Primary: #52459F;
-    --Secondary: #85EAF6;
-
-    //color neutral
-    --Dark-Grayish-Blue: #9095a7 ;
-    --Very-Dark-Blue: #1d1e25 ;
-    --Very-Pale-Red: #5b4444 ;
-    --Vary-Light-Gray: #fafafa;
-    --white:#fff;
-    --black: #000000;
-
-    //font weight
-    --fw-200: 200;
-    --fw-light: 300;
-    --fw-regular: 400;
-    --fw-bold: 700;
-
-    //animation
-    --animation:0.5s;
-    --animation01:1.5s;
-
-    //text colour
-    --Bright-Red: #f25f3a; 
-    --Dark-Blue: #242d52;
-}
-
 html{
     font-size: 16px;
 }
 
 body{
+    background: #f0f5f9;
     background-color: var(--white);
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;

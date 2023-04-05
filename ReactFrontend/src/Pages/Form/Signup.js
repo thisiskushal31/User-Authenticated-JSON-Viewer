@@ -10,9 +10,8 @@ export default function Signup() {
                 <input type="text" placeholder="Name" />
                 <input type="email" placeholder="Email" />
                 <input type="password" placeholder="Password" />
-                <a href="#">Forgot your password?</a>
                 <button>Sign Up</button>
-                <p>Already have an account? <a href="#">Sign in here</a></p>
+                <p>Already have an account? <a href="/signin">Sign in here</a></p>
             </form>
         </div>
       </div>

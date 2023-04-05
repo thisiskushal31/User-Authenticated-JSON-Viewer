@@ -1,21 +1,21 @@
 .form-container {
     font-family: 'Montserrat', sans-serif;
-    background: #f6f5f7;
+    background: #060b26;
+    padding: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: -20px 0 50px;
-	margin-top: 20px;
 }
 
 .form-input-container h1 {
+    color: #c5c6ce;
     font-weight: bold;
     margin: 0;
 }
 
 .form-input-container p {
+    color: #c5c6ce;
     font-size: 14px;
     font-weight: 100;
     line-height: 20px;
@@ -28,14 +28,14 @@
 }
 
 .form-input-container a {
-    color: #0e263d;
+    color: #c5c6ce;
     font-size: 14px;
     text-decoration: none;
     margin: 15px 0;
 }
 
 .form-main-container {
-    background: #fff;
+    background: #131322;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
     position: relative;
@@ -55,7 +55,7 @@
 }
 
 .form-wrapper-container form {
-    background: #fff;
+    background: #131322;
     display: flex;
     flex-direction: column;
     padding:  0 50px;
@@ -67,6 +67,8 @@
 
 .form-wrapper-container input {
     background: #eee;
+    background-color: #c9cfe5;
+    color: #000000;
     border: none;
     padding: 12px 15px;
     margin: 8px 0;
@@ -75,8 +77,8 @@
 
 .form-input-container button {
     border-radius: 20px;
-    border: 1px solid #008ecf;
-    background: #008ecf;
+    border: 1px solid #f25f3a;
+    background: #f25f3a;
     color: #fff;
     font-size: 12px;
     font-weight: bold;
