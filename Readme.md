@@ -1,6 +1,6 @@
 # User Authenticated JSON Viewer
 
-User Authenticated JSON Viewer uses RedisDB for session key valid certain time if logged in that time interval it will save user specific data to MongoDB.
+User Authenticated JSON Viewer uses embedded RedisDB to store a randomly generated session key and embedded MongoDB to collect user credentials, while Docker is used to deploy backend APIs and embedded databases. This is to ensure the security of a communication session between a user and another computer or between two computers. For example, the JSON viewer will store user-specific data in MongoDB and provide access to the data with a valid session key stored in RedisDB.
 
 ## Tech Stack
 
@@ -53,7 +53,7 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## About Me
 
-I am a passionate programmer with a keen interest in Full Stack Web Development, Cloud and DevOps Emerging Technologies, and attempting to solve problems with software.
+I am a passionate programmer with a keen interest in Full Stack Web Development, Cloud and DevOps Emerging Technologies, and attempting to solve problems with the software.
 
 ## Let's Connect
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thisiskushalgupta/) [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/thisis_kushal) [![github](https://img.shields.io/badge/github-3d4653?style=for-the-badge&logo=github&logoColor=white)](https://github.com/thisiskushal31/)
